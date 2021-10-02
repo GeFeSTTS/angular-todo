@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "mock:server": "json-server --watch mocks/data.json",
-    "mock:server-auth": "node mocks/server.js"
+    "mock:server-auth": "node mocks/server.js",
+    "dev": "npm run mock:server-auth & npm run start"
   },
   "private": true,
   "dependencies": {
